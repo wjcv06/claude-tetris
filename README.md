@@ -86,6 +86,10 @@ Después abre `http://localhost:8000` en el navegador.
 | `Espacio` | Hard drop (caída instantánea)     |
 | `P`       | Pausar / reanudar                 |
 
+### Temas visuales (skins)
+
+El selector **TEMA** del panel lateral cambia la apariencia al instante: **Retro** (colores planos), **Neón** (fondo negro con brillo), **Pastel** (colores suaves y esquinas redondeadas) y **Pixel art** (textura de píxeles). La preferencia se guarda en `localStorage` (clave `tetris.skin`).
+
 ---
 
 ## Cómo funciona
