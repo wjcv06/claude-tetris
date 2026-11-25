@@ -150,3 +150,30 @@ kbd {
 #restart-btn:hover {
   background: #9bbdff;
 }
+
+/* ===== RECORDS ===== */
+.start-title { font-size: 32px; font-weight: 800; letter-spacing: 6px; color: #7aa2f7; }
+.records-heading { font-size: 10px; letter-spacing: 2px; color: #555570; font-weight: 600; }
+.records-box { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.records-box.hidden, .records-entry.hidden { display: none; }
+.records-entry-row { display: flex; gap: 6px; margin-top: 6px; }
+#records-new-msg { font-size: 13px; color: #ffd54f; }
+#records-name {
+  background: #1a1a25; color: #e0e0e0; border: 1px solid #3a3a5a;
+  border-radius: 4px; padding: 6px 8px; width: 130px; font-size: 13px; user-select: text;
+}
+#records-save, #play-btn {
+  background: #7aa2f7; color: #0f0f17; border: none; border-radius: 6px;
+  padding: 6px 14px; font-size: 13px; font-weight: 700; cursor: pointer;
+}
+#play-btn { padding: 10px 28px; font-size: 14px; }
+.records-table { border-collapse: collapse; font-size: 12px; min-width: 240px; }
+.records-table th { font-size: 10px; letter-spacing: 1px; color: #555570; text-align: left; padding: 3px 8px; }
+.records-table td { padding: 3px 8px; font-family: 'Courier New', Courier, monospace; color: #c0c0d0; text-align: left; }
+.records-table tr.highlight td { background: rgba(255, 213, 79, 0.18); color: #ffd54f; font-weight: 700; }
+.records-table td.records-empty { text-align: center; color: #555570; }
+.records-stats { font-size: 11px; color: #888; }
+.reset-records-btn {
+  background: transparent; color: #e57373; border: 1px solid #e57373;
+  border-radius: 4px; padding: 4px 10px; font-size: 11px; cursor: pointer;
+}
